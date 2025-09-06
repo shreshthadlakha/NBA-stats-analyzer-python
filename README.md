@@ -14,14 +14,14 @@ _A Python-based tool to fetch and analyze live NBA team scores and season statis
 </pre>
 
 <h2><a class="anchor" id="overview"></a>Overview</h2>
-This Python program leverages the NBA's public data API to provide real-time analysis of team performance and ongoing matches. It includes functionality to:<br>
+This Python program leverages the NBA's public data API to provide real-time analysis of team performance and ongoing matches. It includes functionality to:<br><br>
 
 - View the current scoreboard (live games with team scores, time remaining, and period).<br>
 - Get season statistics of NBA teams, sorted by points per game (PPG).<br>
 - Filter out irrelevant or placeholder data to ensure clean output.<br>
 
 <h2><a class="anchor" id="problem"></a>Problem</h2>
-Building an NBA stats analyzer requires tackling several technical and data-handling challenges:<br>
+Building an NBA stats analyzer requires tackling several technical and data-handling challenges:<br><br>
 
 - Parsing nested JSON responses from the NBA API.<br>
 - Dynamically fetching the current scoreboard and stats endpoints.<br>
@@ -36,10 +36,8 @@ The project uses basic but powerful Python libraries to achieve its functionalit
 - pprint (PrettyPrinter): For clean, structured printing of JSON and dictionaries.<br>
 - Lambda functions and sorting: To filter and rank team stats.<br>
 - Standard Python I/O and control structures.<br>
-<br>
+
 No external libraries beyond the Python standard library are required.<br>
-
-
 
 <h2><a class="anchor" id="projec-structure"></a>Project Structure</h2>
 <pre>Mastermind/
@@ -66,26 +64,25 @@ No external libraries beyond the Python standard library are required.<br>
 <br>
 <h2><a class="anchor" id="how-to-run-this-program"></a>How to run this program</h2>
 
-#### Prerequisites<br>
+### Prerequisites<br>
 - Install Python (preferably Python 3.x): https://www.python.org/downloads/<br>
 - Ready right API from trusted sources for updated data and the APi should work properly.
-<br>
-#### Clone or Download the Project<br>
+
+### Clone or Download the Project<br>
 - You can clone it using Git or simply download the .py file.<br>
-- git clone https://github.com/yourusername/MasterMind_Game.git<br>
+- git clone https://github.com/yourusername/NBA-stats-analyzer-python.git<br>
 - Change directory to where you cloned the file in local directory<br>
-<br>
-#### Run the Program<br>
+
+### Run the Program<br>
 - Use your terminal or command prompt:<br>
 - run the file<br>
 
-#### Output<br>
+### Output<br>
 - You will see a list of currently active NBA games with live scores.<br>
 - Followed by a ranked list of NBA teams sorted by points per game (PPG).<br>
 
-
 <h2><a class="anchor" id="recommendations"></a>Recommendations</h2>
-Here are some tips and ideas for improving or modifying the game:<br>
+Here are some tips and ideas for improving or modifying the program:<br>
 
 ### For Future Enhancements:<br>
 
