@@ -30,7 +30,7 @@ Building an NBA stats analyzer requires tackling several technical and data-hand
 - Sorting and displaying team stats in a user-friendly format.<br>
 
 <h2><a class="anchor" id="tools"></a>Tools</h2>
-The project uses basic but powerful Python libraries to achieve its functionality:<br>
+The project uses basic but powerful Python libraries to achieve its functionality:<br><br>
 
 - requests: To fetch JSON data from the NBA API.<br>
 - pprint (PrettyPrinter): For clean, structured printing of JSON and dictionaries.<br>
