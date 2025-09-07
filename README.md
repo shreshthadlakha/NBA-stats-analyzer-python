@@ -1,4 +1,4 @@
-# Automatic File Backup 
+# NBA Stats Analysis 
 _A Python-based tool to fetch and analyze live NBA team scores and season statistics using the NBA Data API. This project aims to help users gain real-time insights into current games and top-performing teams._
 
 ## Table of Contents
